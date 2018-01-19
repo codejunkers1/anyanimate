@@ -1,0 +1,1 @@
+function anyanimate(){$("[data-animate]").each(function(){var a=$(window).scrollTop(),n=$(window).height(),t=$(this).offset().top;if(a+(n-100)>t){var i=$(this).data("animate");$(this).addClass(i)}})}$(window).scroll(function(){anyanimate()}),$(document).ready(function(){anyanimate()});

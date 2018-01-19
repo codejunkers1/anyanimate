@@ -1,0 +1,96 @@
+html{
+	font-size: 1em;
+}
+body{
+	font-size: 1em;
+	background-color: #5D737E;
+	color: white;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.25em;
+}
+h4{
+	font-size: 1em;
+}
+h5{
+	font-size: 0.75em;
+}
+h6{
+}
+p{
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+a{
+	font-size: 1em;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration: none;
+
+}
+a:visited,a:focus{
+	text-decoration: none !important;
+}
+p{
+	text-align: justify;
+}
+/*common styles*/
+.next-animation {
+	min-height: 50vh;
+}
+.no-pad{
+	padding: 0;
+}
+.pad-10{
+	padding: 0.6em 0em;
+}
+.no-mar{
+	margin:0;
+}
+.txt-cen {
+	text-align: center;
+}
+.p-top-10 {
+	padding-top: 10vh;
+}
+.p-top-20 {
+	padding-top: 40vh;
+}
+
+/*box */
+.box {
+	padding:0.5em;
+	width: 50%;
+	background-color: white;
+	color: black;
+	display: inline-block;
+	border-radius: 5px;
+}
+.box-head {
+
+}
+.box-head p{
+	font-size: 0.8em;
+	padding: 0.5em;
+	margin:0;
+}
+.box-body {
+	height: 20vh;
+	border-top: 2px solid orangered;
+}
+
